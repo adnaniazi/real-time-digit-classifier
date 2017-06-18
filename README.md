@@ -8,7 +8,8 @@ classify custom hand-written images in real time. The user can use mouse input
 to scribble a digit and the GUI will try to classify the image as soon as the
 user lifts the mouse.
 
- 
+![demo
+gif](<https://github.com/adnaniazi/real-time-digit-classifier/blob/master/demo.gif>)
 
 Requirements:
 -------------
