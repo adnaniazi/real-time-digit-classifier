@@ -1,8 +1,6 @@
 Real-time Digit Classification using TensorFlow and PyQt
 ========================================================
 
- 
-
 This PyQt GUI uses a deep neural network classifier trained on MNIST dataset to
 classify custom hand-written images in real time. The user can use mouse input
 to scribble a digit and the GUI will try to classify the image as soon as the
@@ -24,16 +22,12 @@ Requirements:
 
 5. PyQt5
 
-6. skimage
-
- 
+6. skim age
 
 How to run it?
 --------------
 
 Import all files in a project in PyCharm. Then run main.py file.
-
- 
 
 What is what?
 -------------
@@ -56,3 +50,12 @@ Python code for GUI’s front end
 GUI must be placed in the icons folder and these icons should then be defined in
 the resources.qrc file. Then a Python file (resources_rc.py) must be generated
 by running the generate_py_file_qrc_file.bat file
+
+6. img.png contains the raw high-resolution image obtained from the scribble
+input
+
+7. img28_inv.png contains the a 28x28 inverted version of the original scribble
+image. This is used as input to the classifier to classify.
+
+8. pyrcc5.exe is needed to convert the resources.qrc file to resources_rc.py
+file when the generate_py_file_from_qrc_file.bat is run.
